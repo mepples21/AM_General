@@ -1,5 +1,7 @@
 # This should be run from the Skype for Business Online PowerShell module
 
+# Scripts based off this Excel spreadsheet: https://concurrencyinc.sharepoint.com/sites/amgeneral-skypeforbusiness/Shared%20Documents/General/AM%20General%20Auburn%20Hills%20Livonia%20Employee%20List%20-%20By%20Department%20-%20Including%20New%20Hires%2017%20Auust%202017.xlsx?web=1
+
 
 Set-CsUser -Identity Creig.Allen@amgeneral.com -EnterpriseVoiceEnabled $true -HostedVoicemail $true -OnPremLineUri tel:+12483095760
 Set-CsUser -Identity David.Anderson@amgeneral.com -EnterpriseVoiceEnabled $true -HostedVoicemail $true -OnPremLineUri tel:+12483095762

@@ -1,5 +1,7 @@
 # This should be run from the Azure AD (MSOnline) PowerShell module
 
+# Scripts based off this Excel spreadsheet: https://concurrencyinc.sharepoint.com/sites/amgeneral-skypeforbusiness/Shared%20Documents/General/AM%20General%20Auburn%20Hills%20Livonia%20Employee%20List%20-%20By%20Department%20-%20Including%20New%20Hires%2017%20Auust%202017.xlsx?web=1
+
 
 Get-MsolUser -UserPrincipalName Creig.Allen@amgeneral.com | Set-MsolUserLicense -AddLicenses "amgeneralllc:MCOEV_GOV"
 Get-MsolUser -UserPrincipalName David.Anderson@amgeneral.com | Set-MsolUserLicense -AddLicenses "amgeneralllc:MCOEV_GOV"
